@@ -1,0 +1,21 @@
+cmake ^
+    -G "Visual Studio 16 2019" ^
+    -T host=x64 ^
+    -B D:/Libraries/opencv-4.5.2/opencv-4.5.2/build ^
+    -D CMAKE_BUILD_TYPE=RELEASE ^
+    -D CMAKE_INSTALL_PREFIX=D:/Libraries/opencv-4.5.2/OpenCV ^
+    -D OPENCV_EXTRA_MODULES_PATH=D:/Libraries/opencv-4.5.2/opencv_contrib-4.5.2/opencv_contrib-4.5.2/modules ^
+    -D BUILD_NEW_PYTHON_SUPPORT=ON ^
+    -D BUILD_PYTHON_SUPPORT=ON ^
+    -D BUILD_opencv_python3=yes ^
+    -D PYTHON_DEFAULT_EXECUTABLE=E:/Anaconda/python.exe ^
+    -D OPENCV_SKIP_PYTHON_LOADER=ON ^
+    -D PYTHON_LIBRARY=E:/Anaconda/libs/python38.lib ^
+    -D OPEN_CV_FORCE_PYTHON_LIBS=yes ^
+    -D WITH_CUDA=ON ^
+    -D WITH_CUDNN=ON ^
+    -D OPENCV_DNN_CUDA=ON ^
+    -D WITH_CUBLAS=ON ^
+    -D ENABLE_FAST_MATH=1 ^
+    -D CUDA_FAST_MATH=1 ^
+    -D CMAKE_TOOLCHAIN_FILE=D:/Libraries/vcpkg/scripts/buildsystems/vcpkg.cmake ^
