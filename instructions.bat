@@ -18,4 +18,4 @@ cmake ^
     -D WITH_CUBLAS=ON ^
     -D ENABLE_FAST_MATH=1 ^
     -D CUDA_FAST_MATH=1 ^
-    -D CMAKE_TOOLCHAIN_FILE=D:/Libraries/vcpkg/scripts/buildsystems/vcpkg.cmake ^
+    -D CMAKE_TOOLCHAIN_FILE=D:/Libraries/vcpkg/scripts/buildsystems/vcpkg.cmake
